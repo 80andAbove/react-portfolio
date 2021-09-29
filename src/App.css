@@ -1,0 +1,10 @@
+/* The app itself */
+.App{
+  ;
+}
+
+/* My kanji name in the navbar */
+.navbar-name{
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+}

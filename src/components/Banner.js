@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Header = () => {
+const Banner = () => {
     return (
         <div>
             <h1>Shogo Miyagi</h1>
+            <h1>Web Developer</h1>
         </div>
     )
 }
 
-export default Header;
+export default Banner;
