@@ -1,0 +1,133 @@
+/* The app itself */
+.App{
+    ;
+}
+
+/* Name section in navbar */
+.navbar-name-section{
+  
+}
+
+/* My kanji name in the navbar */
+.navbar-name{
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-size: 54px;
+  margin-left: -1px;
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 20px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* Related to the slider */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 21px;
+  bottom: 1px;
+  background-color: white;
+  transition: .4s;
+}
+
+/* Related to the slider */
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+/* Related to the slider */
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+/* Related to the slider */
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* The social list section in navbar */
+.navbar-social-list-section{
+  margin-left: -14px;
+}
+
+/* Social list in navbar */
+.list-style{
+  list-style: none;
+}
+
+.section{
+    height: 100vh;
+}
+  
+/* The banner section */
+.banner{
+    position: relative;
+    .banner-name, 
+    .banner-title,
+    .banner-section-list
+    {
+        position: absolute;
+    }
+}
+
+// My name in the banner section
+.banner-name{
+    top: -27rem;
+    left: 5rem;
+    font-size: 24px;
+}
+
+// The web developer area in the banner
+.banner-title{
+    left: 28rem;
+}
+
+// The page sections
+.banner-section-list{
+    right: 0;
+    top: 23rem;
+}
+
+// My bio
+.about-area{
+    width: 25rem;
+}
