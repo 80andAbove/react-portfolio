@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
     return (
         <div className="section" id="about-me">
-            <h2>About Me</h2>
+            <h2 className="section-title">About Me</h2>
             <div>
               <p className="about-area">
                 I'm Japanese but been living abroad for most of my life.
@@ -13,8 +13,10 @@ const About = () => {
                 forget to follow me on my social media if you like my work or just want to follow my journey...
                 or just want a friend to talk/discuss/game with
               </p>
+            </div>
+            <div className="me-area">
               <ul>
-                <li className="list-style">
+                <li className="list-style" id="about-me-stack">
                   <a href="#" target="_blank">
                     <p>
                       Photography Fanatic
@@ -23,7 +25,7 @@ const About = () => {
                 </li>
               </ul>
               <ul>
-                <li className="list-style">
+                <li className="list-style" id="about-me-stack">
                   <a href="#" target="_blank">
                     <p>
                       Music Junkie
@@ -32,7 +34,7 @@ const About = () => {
                 </li>
               </ul>
               <ul>
-                <li className="list-style">
+                <li className="list-style" id="about-me-stack">
                   <a href="#" target="_blank">
                     <p>
                       Third Cultural Kid
@@ -41,7 +43,7 @@ const About = () => {
                 </li>
               </ul>
               <ul>
-                <li className="list-style">
+                <li className="list-style" id="about-me-stack">
                   <a href="https://steamcommunity.com/profiles/76561198303062013/" target="_blank">
                     <p>
                       Avid Gamer
@@ -50,26 +52,40 @@ const About = () => {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="stack-area">
               <h3>My Stack</h3>
-              <h5>Scripting Languages</h5>
+              <div className="stack-flex">
+                <h5>Scripting Languages</h5>
+                <h5>Frameworks</h5>
+              </div>
+              <div className="stack-flex-devicons">
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg" />
-              <h5>Frameworks</h5>
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" />
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg" />
-              <h5>Frontend</h5>
+              </div>
+              <div>
+                <h5>Frontend</h5>
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-              <h5>Databases</h5>
+              </div>
+              <div>
+                <h5>Databases</h5>
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
-              <h5>Other Tools</h5>
+              </div>
+              <div>
+                <h5>Other Tools</h5>
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" />
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
+              </div>
+              
+              
+              
+              
             </div>
         </div>
     )

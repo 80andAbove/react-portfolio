@@ -129,7 +129,49 @@ input:checked + .slider:before {
 
 // My bio
 .about-area{
-    width: 25rem;
+    width: 65rem;
+    display: flex;
+    justify-self: center;
+}
+
+// About me area
+#about-me{
+  display: grid;
+  justify-content: center;
+}
+
+.section-title{
+  display: grid;
+  justify-content: center;
+  display: flex;
+}
+
+.me-area{
+  display: flex;
+  justify-content: center;
+}
+
+// The list of my stack
+.stack-area{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 38rem;
+}
+
+// The stack list in about me section
+#about-me-stack{
+  
+}
+
+.stack-flex{
+  display: flex;
+  gap: 5rem;
+}
+
+.stack-flex-devicons{
+  gap: 2rem;
+  display: inline-flex;
 }
 
 // The icons for my stacks
