@@ -54,38 +54,36 @@ const About = () => {
             </div>
             <div className="stack-area">
               <h3 id="title-mystack">My Stack</h3>
-              <div className="stack-flex" id="row-one">
-                <h5>Scripting Languages</h5>
-                <h5 id="title-frameworks">Frameworks</h5>
+              <div className="stack-titles">
+                <h5>Languages</h5>
+                <h5>Frameworks</h5>
+                <h5>Frontend</h5>
+                <h5>Databases</h5>
+                <h5>Other Tools</h5>
               </div>
-              <div className="stack-flex-devicons" id="row-one-dev">
-                <img id="dev-python" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
+              <div className="stack-specific">
+                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg" />
-                <img id="dev-django" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" />
+              </div>
+              <div className="stack-specific" id="framework">
+                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" />
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg" />
               </div>
-              <div className="stack-flex" id="row-two">
-                <h5>Frontend</h5>
-                <h5 id="title-mysql">Databases</h5>
-              </div>
-              <div className="stack-flex-devicons" id="row-two-dev">
+              <div className="stack-specific" id="frontend">
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <img id="dev-mysql" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+              </div>
+              <div className="stack-specific" id="database">
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
               </div>
-              <h5 id="last-row">Other Tools</h5>
-              <div id="last-row">
+              <div className="stack-specific" id="other">
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" />
                 <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
               </div>
-              
-              
-              
-              
             </div>
         </div>
     )

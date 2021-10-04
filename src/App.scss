@@ -164,49 +164,38 @@ input:checked + .slider:before {
   justify-content: center;
 }
 
-// The stack list in about me section
-#about-me-stack{
-  
-}
-
-.stack-flex{
-  display: flex;
-  gap: 5rem;
-  justify-content: center;
-}
-
-.stack-flex-devicons{
-  gap: 2rem;
+.stack-titles{
   display: inline-flex;
+  gap: 3rem;
+}
+
+.stack-specific{
+  display: grid;
+  gap: 1rem;
+}
+
+#framework{
+  margin-left: 7rem;
+  margin-top: -8rem;
+}
+
+#frontend{
+  margin-left: 14rem;
+  margin-top: -6.5rem;
+}
+
+#database{
+  margin-left: 21rem;
+  margin-top: -16rem;
+}
+
+#other{
+  margin-left: 28rem;
+  margin-top: -6rem;
 }
 
 // The icons for my stacks
 .devicons{
     height: 3rem;
     width: 3rem;
-}
-
-#title-frameworks{
-  margin-left: 10rem;
-}
-
-#dev-python{
-  margin-left: 1rem;
-}
-
-#dev-django{
-  margin-left: 12rem;
-}
-
-#row-two-dev{
-  gap: 2rem;
-}
-
-#title-mysql{
-  margin-left: 13rem;
-}
-
-#last-row{
-  display: flex;
-  justify-content: center;
 }
