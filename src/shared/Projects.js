@@ -1,5 +1,9 @@
 import React from 'react'
 import JWP from '../components/image/jwp.png'
+import Justice from '../components/image/justice.png'
+import CampQ from '../components/image/campq.png'
+import Watch from '../components/image/watch-list.png'
+import Notes from '../components/image/notes.png'
 
 const Projects = () => {
     return (
@@ -14,25 +18,25 @@ const Projects = () => {
                 </div>
                 <div>
                     <h3>Justice</h3>
-                    <img src="#" alt="#" />
+                    <img src={Justice} alt="#" />
                     <p>Lorem Ipsum</p>
                     <span>Tools Used:</span>
                 </div>
                 <div>
                     <h3>CampQ</h3>
-                    <img src="#" alt="#" />
+                    <img src={CampQ} alt="#" />
                     <p>Lorem Ipsum</p>
                     <span>Tools Used:</span>
                 </div>
                 <div>
                     <h3>Rails Watch List</h3>
-                    <img src="#" alt="#" />
+                    <img src={Watch} alt="#" />
                     <p>Lorem Ipsum</p>
                     <span>Tools Used:</span>
                 </div>
                 <div>
                     <h3>Notes</h3>
-                    <img src="#" alt="#" />
+                    <img src={Notes} alt="#" />
                     <p>Lorem Ipsum</p>
                     <span>Tools Used:</span>
                 </div>
