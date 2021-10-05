@@ -4,7 +4,7 @@ import Banner from './components/Banner'
 import Navbar from './components/Navbar'
 import About from './shared/About'
 import Projects from './shared/Projects'
-import Contact from './shared/Contact'
+import ContactForm from './shared/ContactForm'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Banner />
       <About />
       <Projects />
-      <Contact />
+      <ContactForm />
     </div>
   );
 }
