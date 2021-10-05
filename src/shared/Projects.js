@@ -1,4 +1,5 @@
 import React from 'react'
+import JWP from '../components/image/jwp.png'
 
 const Projects = () => {
     return (
@@ -7,7 +8,7 @@ const Projects = () => {
             <div className="projects">
                 <div>
                     <h3>JWPFit</h3>
-                    <img src="#" alt="#" />
+                    <img src={JWP} alt="#" />
                     <p>Lorem Ipsum</p>
                     <span>Tools Used:</span>
                 </div>
