@@ -17,38 +17,22 @@ const About = () => {
             <div className="me-area">
               <ul>
                 <li className="list-style" id="about-me-stack">
-                  <a href="#" target="_blank">
-                    <p>
-                      Photography Fanatic
-                    </p>
-                  </a>
+                  <span>Grew up in 5 different countries</span>
                 </li>
               </ul>
               <ul>
                 <li className="list-style" id="about-me-stack">
-                  <a href="#" target="_blank">
-                    <p>
-                      Music Junkie
-                    </p>
-                  </a>
+                  <span>Worked for the Olympics</span>
                 </li>
               </ul>
               <ul>
                 <li className="list-style" id="about-me-stack">
-                  <a href="#" target="_blank">
-                    <p>
-                      Third Cultural Kid
-                    </p>
-                  </a>
+                    <span>Aims to continue growing in life</span>
                 </li>
               </ul>
               <ul>
                 <li className="list-style" id="about-me-stack">
-                  <a href="https://steamcommunity.com/profiles/76561198303062013/" target="_blank">
-                    <p>
-                      Avid Gamer
-                    </p>
-                  </a>
+                    <span>Die Hard Arsenal Fan</span>
                 </li>
               </ul>
             </div>
