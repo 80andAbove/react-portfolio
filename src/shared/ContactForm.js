@@ -7,6 +7,7 @@ function ContactForm() {
       return <p>Thanks for joining!</p>;
   }
   return (
+    <div className="section">
       <form onSubmit={handleSubmit}>
       <h1>Contact</h1>
       <label htmlFor="email">
@@ -34,7 +35,8 @@ function ContactForm() {
       <button type="submit" disabled={state.submitting}>
         Submit
       </button>
-    </form>
+      </form>
+    </div>
   );
 }
 

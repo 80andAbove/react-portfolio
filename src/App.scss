@@ -200,7 +200,14 @@ margin-top: -6rem;
   width: 3rem;
 }
 
+// The lineup of projects
 .projects{
   display: flex;
   gap: 10rem;
+}
+
+.project-container-img{
+  width: 40vw;
+  height: 40vh;
+  contain: content;
 }
