@@ -7,8 +7,8 @@ function ContactForm() {
       return <p>Thanks for joining!</p>;
   }
   return (
-    <div className="section">
-      <form onSubmit={handleSubmit}>
+    <div className="section" id="contact-section">
+      <form className="contact-form" onSubmit={handleSubmit}>
       <h1>Contact</h1>
       <label htmlFor="email">
         Email Address

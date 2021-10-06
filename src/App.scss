@@ -206,8 +206,21 @@ margin-top: -6rem;
   gap: 10rem;
 }
 
+// The img size in projects 
 .project-container-img{
-  width: 40vw;
-  height: 40vh;
-  contain: content;
+  width: 25vw;
+  height: 60vh;
+}
+
+#contact-section{
+  height: 50vh;
+}
+
+.contact-form{
+  display: grid;
+  gap: 1rem;
+}
+
+#email{
+  width: 15rem;
 }
