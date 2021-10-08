@@ -16,22 +16,22 @@ const About = () => {
             </div>
             <div className="me-area">
               <ul>
-                <li className="list-style" id="about-me-stack">
+                <li className="list-style about-me-stack">
                   <span>Grew up in 5 different countries</span>
                 </li>
               </ul>
               <ul>
-                <li className="list-style" id="about-me-stack">
+                <li className="list-style about-me-stack">
                   <span>Worked for the Olympics</span>
                 </li>
               </ul>
               <ul>
-                <li className="list-style" id="about-me-stack">
+                <li className="list-style about-me-stack">
                     <span>Aims to continue growing in life</span>
                 </li>
               </ul>
               <ul>
-                <li className="list-style" id="about-me-stack">
+                <li className="list-style about-me-stack">
                     <span>Die Hard Arsenal Fan</span>
                 </li>
               </ul>
