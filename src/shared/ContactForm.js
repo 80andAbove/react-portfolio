@@ -9,7 +9,7 @@ function ContactForm() {
   return (
     <div className="section" id="contact-section">
       <form className="contact-form" onSubmit={handleSubmit}>
-      <h1>Contact</h1>
+      <h1 className="section-title">ContactMe</h1>
       <label htmlFor="name">
         Name
       </label>

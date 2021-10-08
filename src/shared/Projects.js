@@ -10,7 +10,7 @@ import { DeviceFrameset } from 'react-device-frameset'
 const Projects = () => {
     return (
         <div className="section">
-            <h2>Recent Works</h2>
+            <h2 className="section-title">RecentWorks</h2>
             <div className="projects">
                 <div className="project-container"> 
                     <img className="project-container-img" src={JWP} alt="#" />
