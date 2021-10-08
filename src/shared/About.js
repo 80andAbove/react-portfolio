@@ -1,4 +1,10 @@
 import React from 'react'
+import DevIcon from "devicon-react-svg";
+
+const devIconStyle = {
+  fill: "#587289",
+    width: "50px",
+}
 
 const About = () => {
     return (
@@ -46,27 +52,27 @@ const About = () => {
                 <h5>Other Tools</h5>
               </div>
               <div className="stack-specific">
-                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
-                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg" />
+                <DevIcon icon="python" style={devIconStyle} />
+                <DevIcon icon="ruby" style={devIconStyle} />
               </div>
               <div className="stack-specific" id="framework">
-                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" />
-                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg" />
+                <DevIcon icon="django" style={devIconStyle} />
+                <DevIcon icon="rail" style={devIconStyle} />
               </div>
               <div className="stack-specific" id="frontend">
-                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
-                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                <DevIcon icon="html5" style={devIconStyle} />
+                <DevIcon icon="css3" style={devIconStyle} />
+                <DevIcon icon="javascript" style={devIconStyle} />
+                <DevIcon icon="react" style={devIconStyle} />
               </div>
               <div className="stack-specific" id="database">
-                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
-                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
+                <DevIcon icon="mysql" style={devIconStyle} />
+                <DevIcon icon="postgresql" style={devIconStyle} />
               </div>
               <div className="stack-specific" id="other">
-                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
-                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" />
-                <img className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
+                <DevIcon icon="figma" style={devIconStyle} />
+                <DevIcon icon="heroku" style={devIconStyle} />
+                <DevIcon icon="git" style={devIconStyle} />
               </div>
             </div>
         </div>
