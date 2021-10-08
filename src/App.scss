@@ -16,7 +16,12 @@ body{
 
 /* The app itself */
 .App{
-  
+  position: relative;
+  margin-top: 44vh;
+}
+
+.navbar{
+  position: absolute;
 }
 
 /* Name section in navbar */
@@ -40,7 +45,7 @@ body{
   display: inline-block;
   width: 44px;
   height: 20px;
-  margin-left: 15px;
+  margin-left: 29px;
   margin-top: 15px;
 }
 
@@ -115,6 +120,15 @@ input:checked + .slider:before {
   list-style: none;
   color: #587289;
   text-transform: uppercase;
+}
+
+#linkedin-icon{
+  margin-left: 6px;
+  margin-top: 10px;
+}
+
+#envelope-icon{
+  margin-left: -11px;
 }
 
 .about-me-stack{

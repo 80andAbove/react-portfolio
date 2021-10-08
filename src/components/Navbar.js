@@ -30,12 +30,12 @@ const Navbar = () => {
                             <DevIcon icon="github_badge" style={devIconStyle} viewBox="0 0 32 32" />
                         </a>
                     </li>
-                    <li className="list-style">
+                    <li className="list-style" id="linkedin-icon">
                         <a href="#" target="_blank">
                             <DevIcon icon="linkedin" style={devIconStyle} viewBox="0 0 32 32" />
                         </a>
                     </li>
-                    <li className="list-style">
+                    <li className="list-style" id="envelope-icon">
                         <a href="#" target="_blank">
                             <FontAwesomeIcon icon={faEnvelope} style={envelopeStyle} viewBox="0 0 200 200" />
                         </a>
