@@ -10,6 +10,14 @@ function ContactForm() {
     <div className="section" id="contact-section">
       <form className="contact-form" onSubmit={handleSubmit}>
       <h1>Contact</h1>
+      <label htmlFor="name">
+        Name
+      </label>
+      <input
+        id="name"
+        type="name" 
+        name="name"
+      />
       <label htmlFor="email">
         Email Address
       </label>
