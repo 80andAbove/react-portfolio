@@ -10,7 +10,11 @@ const devIconStyle = {
 const About = () => {
     return (
         <div className="section" id="about-me">
-            <h2 className="section-title">AboutMe</h2>
+          <div className="title-flex">
+            <h2 className="section-title">ShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagi</h2>
+            <h2 className="section-title" id="about-color">AboutMe</h2>
+            <h2 className="section-title">ShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagi</h2>
+          </div>
             <div>
               <p className="about-area">
                 I'm Japanese but been living abroad for most of my life.

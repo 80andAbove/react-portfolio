@@ -181,9 +181,17 @@ input:checked + .slider:before {
   justify-content: center;
 }
 
+.title-flex{
+  display: flex;
+}
+
 .section-title{
   color: $white;
   text-transform: uppercase;
+}
+
+#about-color{
+  color: #587289;
 }
 
 .me-area{
