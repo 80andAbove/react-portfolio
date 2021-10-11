@@ -1,4 +1,6 @@
 import React from 'react'
+import WebBackground from '../components/image/shogo-web.png'
+import Shogo from '../components/image/shogo.png'
 
 const Banner = () => {
     return (
@@ -6,8 +8,13 @@ const Banner = () => {
             <div className="banner-name">
                 <h1>Shogo Miyagi</h1>
             </div>
-            <div className="banner-title">
-                <h1>Web Developer</h1>
+            <div className="banner-title-area">
+                <h1 class="banner-title" id="web-title">Web</h1>
+                <h1 class="banner-title">Developer</h1>
+            </div>
+            <div>
+                <img id="web-background" src={WebBackground} alt="" />
+                <img id="web-shogo" src={Shogo} alt="" />
             </div>
             <div className="banner-section-list">
                 <ul>

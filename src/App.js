@@ -8,7 +8,7 @@ import ContactForm from './shared/ContactForm'
 
 function App() {
   return (
-    <div className="App">
+    <div className="container noisy">
       <Navbar />
       <Banner />
       <About />

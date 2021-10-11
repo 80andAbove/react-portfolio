@@ -15,7 +15,7 @@ body{
 }
 
 /* The app itself */
-.App{
+.container{
   position: relative;
   margin-top: 44vh;
 }
@@ -155,11 +155,38 @@ input:checked + .slider:before {
   top: -27rem;
   left: 5rem;
   font-size: 24px;
+  h1{
+    color: #F16A53;
+    text-transform: uppercase;
+  }
 }
 
 // The web developer area in the banner
-.banner-title{
+.banner-title-area{
   left: 28rem;
+}
+
+.banner-title{
+  text-shadow: 3px 3px black;
+  margin-left: 40rem;
+  text-align: end;
+  font-size: 5rem;
+  margin-top: -1rem;
+}
+
+#web-title{
+  margin-top: -7rem;
+  margin-left: 52rem;
+}
+
+#web-background{
+  margin-left: 55rem;
+  margin-top: -20rem;
+}
+
+#web-shogo{
+  margin-left: 50rem;
+  margin-top: -47rem;
 }
 
 // The page sections
