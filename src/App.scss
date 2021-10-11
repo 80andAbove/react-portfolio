@@ -188,6 +188,11 @@ input:checked + .slider:before {
 .section-title{
   color: $white;
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+.name-title{
+  color: #13212D;
 }
 
 #about-color{

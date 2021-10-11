@@ -1,6 +1,8 @@
 // For more help visit https://formspr.ee/react-help
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import AMWaterMark from '../components/image/arya.png';
+
 function ContactForm() {
   const [state, handleSubmit] = useForm("myylvdqk");
   if (state.succeeded) {
@@ -44,6 +46,7 @@ function ContactForm() {
         Submit
       </button>
       </form>
+      <img src={AMWaterMark} />
     </div>
   );
 }

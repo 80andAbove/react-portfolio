@@ -11,9 +11,9 @@ const About = () => {
     return (
         <div className="section" id="about-me">
           <div className="title-flex">
-            <h2 className="section-title">ShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagi</h2>
+            <h2 className="section-title name-title">ShogoMiyagi</h2>
             <h2 className="section-title" id="about-color">AboutMe</h2>
-            <h2 className="section-title">ShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagi</h2>
+            <h2 className="section-title name-title">ShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagiShogoMiya</h2>
           </div>
             <div>
               <p className="about-area">
