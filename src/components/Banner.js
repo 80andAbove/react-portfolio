@@ -32,6 +32,11 @@ const Banner = () => {
                         <h3>Recent Works</h3>
                     </li>
                 </ul>
+                <ul>
+                    <li className="list-style">
+                        <h3>Contact Me</h3>
+                    </li>
+                </ul>
             </div>
         </div>
     )

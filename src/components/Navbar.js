@@ -17,7 +17,7 @@ const Navbar = () => {
     return (
         <nav className="navbar bg-light">
             <div className="navbar-name-section">
-                <h1 className="navbar-name">宮城翔梧</h1>
+                <h1>宮城翔梧</h1>
                 <label className="switch">
                   <input type="checkbox"></input>
                   <span className="slider round"></span>

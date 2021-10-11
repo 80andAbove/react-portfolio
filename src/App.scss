@@ -26,16 +26,19 @@ body{
 
 /* Name section in navbar */
 .navbar-name-section{
-
+  h1{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-size: 6rem;
+    margin-left: 11.5px;
+    color: $blue;
+    font-weight: lighter;
+  }
 }
 
 /* My kanji name in the navbar */
 .navbar-name{
-  writing-mode: vertical-lr;
-  text-orientation: mixed;
-  font-size: 54px;
-  margin-left: -1px;
-  color: $blue;
+  
 }
 
 
@@ -45,7 +48,7 @@ body{
   display: inline-block;
   width: 44px;
   height: 20px;
-  margin-left: 29px;
+  margin-left: 57px;
   margin-top: 15px;
 }
 
@@ -108,7 +111,7 @@ input:checked + .slider:before {
 
 /* The social list section in navbar */
 .navbar-social-list-section{
-  margin-left: -14px;
+  margin-left: 12px;
 }
 
 .icon__icon{
@@ -191,8 +194,8 @@ input:checked + .slider:before {
 
 // The page sections
 .banner-section-list{
-  right: 0;
-  top: 23rem;
+  right: 15px;
+  top: 18rem;
 }
 
 // My bio
