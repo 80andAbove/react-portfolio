@@ -1,6 +1,7 @@
 import React from 'react'
 import WebBackground from '../components/image/shogo-web.png'
 import Shogo from '../components/image/shogo.png'
+import ArrowDown from '../assets/icons/chevron-down.svg'
 
 const Banner = () => {
     return (
@@ -38,6 +39,7 @@ const Banner = () => {
                     </li>
                 </ul>
             </div>
+            <ArrowDown />
         </div>
     )
 }
