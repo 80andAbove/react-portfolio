@@ -22,12 +22,10 @@ body{
 
 /* The app itself */
 .App{
-  position: relative;
-  margin-top: 44vh;
 }
 
 .navbar{
-  position: absolute;
+  position: sticky;
 }
 
 /* Name section in navbar */
