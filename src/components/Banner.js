@@ -15,7 +15,7 @@ const Banner = () => {
             </div>
             <div className="banner-title-area">
                 <h1 class="banner-title" id="web-title">Web</h1>
-                <h1 class="banner-title">Developer</h1>
+                <h1 class="banner-title" id="developer-title">Developer</h1>
             </div>
             <div>
                 <img id="web-background" src={WebBackground} alt="" />
