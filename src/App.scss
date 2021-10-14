@@ -18,10 +18,12 @@ body{
   margin: 0 auto;
   color: $white;
   font-family: Aaron;
+  font-size: 21px;
 }
 
 /* The app itself */
 .App{
+  overflow-y: hidden;
 }
 
 .navbar{
@@ -151,6 +153,40 @@ input:checked + .slider:before {
   color: $white;
 }
 
+/* The connect with me area in the welcome screen */
+.connect-with-me {
+  overflow: hidden;
+  text-align: center;
+  margin-top: 3px;
+  margin-left: -46px;
+  margin-right: auto;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+/* The connect with me area in the welcome screen */
+.connect-with-me:before,
+.connect-with-me:after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 85px;
+  background-color: white;
+  right: -1.5rem;
+}
+/* The connect with me area in the welcome screen */
+.connect-with-me:before {
+  right: 1.5rem;
+  margin-left: auto;
+}
+/* The connect with me area in the welcome screen */
+.connect-wth-me:after {
+  left: -0.5em;
+  margin-right: auto;
+}
+
 .section{
   height: 85vh;
 }
@@ -240,10 +276,13 @@ input:checked + .slider:before {
   color: $white;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 44px;
+  
 }
 
 .name-title{
   color: #13212D;
+  overflow: hidden;
 }
 
 #about-color{
