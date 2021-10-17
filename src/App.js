@@ -1,5 +1,6 @@
 import './App.css';
 import './App.scss';
+import './components/Navbar.scss';
 import Banner from './components/Banner'
 import Navbar from './components/Navbar'
 import About from './shared/About'

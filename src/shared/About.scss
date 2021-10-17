@@ -1,0 +1,45 @@
+// Colors
+$white: #FFFF;
+$orange: #FF6B50;
+$blue: #5C73B7;
+
+.about-me-stack{
+    color: $white;
+}
+
+/* The connect with me area in the welcome screen */
+.connect-with-me {
+  overflow: hidden;
+  text-align: center;
+  margin-top: 3px;
+  margin-left: -46px;
+  margin-right: auto;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* The connect with me area in the welcome screen */
+.connect-with-me:before,
+.connect-with-me:after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 85px;
+  background-color: white;
+  right: -1.5rem;
+}
+
+/* The connect with me area in the welcome screen */
+.connect-with-me:before {
+  right: 1.5rem;
+  margin-left: auto;
+}
+
+/* The connect with me area in the welcome screen */
+.connect-wth-me:after {
+  left: -0.5em;
+  margin-right: auto;
+}
