@@ -150,6 +150,9 @@ input:checked + .slider:before {
 
 .about-me-stack{
   color: $white;
+  span{
+    font-size: 15px;
+  }
 }
 
 /* The connect with me area in the welcome screen */
@@ -163,6 +166,12 @@ input:checked + .slider:before {
   text-transform: uppercase;
   font-size: 14px;
 }
+
+#no-connect-with-me-before:before,
+#no-connect-with-me-after:after{
+  display: none;
+}
+
 /* The connect with me area in the welcome screen */
 .connect-with-me:before,
 .connect-with-me:after {
@@ -260,6 +269,9 @@ input:checked + .slider:before {
   width: 65rem;
   display: flex;
   justify-self: center;
+  p{
+    font-size: 18px;
+  }
 }
 
 // About me area

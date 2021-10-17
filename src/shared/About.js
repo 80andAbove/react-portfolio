@@ -28,7 +28,7 @@ const About = () => {
           <div className="me-area">
             <ul>
               <li className="list-style about-me-stack">
-                <span className="connect-with-me">Grew up in 5 different countries</span>
+                <span id="no-connect-with-me-before" className="connect-with-me">Grew up in 5 different countries</span>
               </li>
             </ul>
             <ul>
@@ -43,7 +43,7 @@ const About = () => {
             </ul>
             <ul>
               <li className="list-style about-me-stack">
-                <span className="connect-with-me">Die Hard Arsenal Fan</span>
+                <span id="no-connect-with-me-after" className="no-connect-with-me connect-with-me">Die Hard Arsenal Fan</span>
               </li>
             </ul>
           </div>
