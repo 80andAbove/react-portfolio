@@ -278,10 +278,15 @@ input:checked + .slider:before {
 #about-me{
   display: grid;
   justify-content: center;
+  margin-top: -13rem;
 }
 
 .title-flex{
   display: flex;
+}
+
+#decrease-margin-top{
+  
 }
 
 .section-title{

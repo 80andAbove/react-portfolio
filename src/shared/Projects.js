@@ -11,7 +11,7 @@ const Projects = () => {
     return (
         <div className="section">
             <div className="title-flex">
-            <h2 className="section-title name-title">RecentWo</h2>
+            <h2 id="decrease-margin-top" className="section-title name-title">RecentWo</h2>
             <h2 className="section-title title-color">RecentWorks</h2>
             <h2 className="section-title name-title">RecentWorksRecentWorksRecentWorksRecentWorksRecentWorksRecentWorks</h2>
             </div>
