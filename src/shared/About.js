@@ -12,7 +12,7 @@ const About = () => {
         <div className="section" id="about-me">
           <div className="title-flex">
             <h2 className="section-title name-title">ShogoMiyagi</h2>
-            <h2 className="section-title" id="about-color">AboutMe</h2>
+            <h2 className="section-title title-color">AboutMe</h2>
             <h2 className="section-title name-title">ShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagiShogoMiyagi</h2>
           </div>
           <div className="about-area">

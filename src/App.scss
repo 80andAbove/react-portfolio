@@ -289,7 +289,7 @@ input:checked + .slider:before {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 44px;
-  
+  margin-bottom: 5rem;
 }
 
 .name-title{
@@ -297,7 +297,7 @@ input:checked + .slider:before {
   overflow: hidden;
 }
 
-#about-color{
+.title-color{
   color: #587289;
 }
 
