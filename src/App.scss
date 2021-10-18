@@ -196,7 +196,23 @@ input:checked + .slider:before {
 }
 
 .section{
-  height: 85vh;
+  height: 100vh;
+  
+  #recent-work{
+    margin-bottom: 50rem;
+  }
+}
+
+// The contact form seciton
+#contact-section{
+  margin-top: 50rem;
+}
+
+// About me area
+#about-me{
+  display: grid;
+  justify-content: center;
+  margin-top: -13rem;
 }
 
 /* The banner section */
@@ -274,12 +290,6 @@ input:checked + .slider:before {
   }
 }
 
-// About me area
-#about-me{
-  display: grid;
-  justify-content: center;
-  margin-top: -13rem;
-}
 
 .title-flex{
   display: flex;
@@ -303,7 +313,7 @@ input:checked + .slider:before {
 }
 
 .title-color{
-  color: #587289;
+  color: $white;
 }
 
 .me-area{
@@ -364,16 +374,40 @@ input:checked + .slider:before {
 .projects{
   display: flex;
   gap: 10rem;
+  justify-content: center;
+  height: 250vh;
+}
+
+.project-container{
+  contain: content;
+  width: 30rem;
 }
 
 // The img size in projects 
 .project-container-img{
-  width: 25vw;
-  height: 60vh;
+  position: relative;
+  width: 25rem;
+  height: 30rem;
 }
 
-#contact-section{
-  height: 50vh;
+.project-detail-container{
+  position: absolute;
+  contain: content;
+  border: 1px solid white;
+  width: 23rem;
+  height: 2rem;
+  padding: 0rem 1rem 1rem;
+  top: 27rem;
+  transition: all .7s ease-out;
+  overflow: hidden;
+  p, span{
+    opacity: 1.0;
+  }
+}
+
+.project-detail-container:hover{
+  top: 0rem;
+  height: 29rem;
 }
 
 .contact-form{
