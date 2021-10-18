@@ -3,9 +3,13 @@ import React from 'react'
 import JWP from '../components/image/jwp.png'
 import Justice from '../components/image/justice.png'
 import CampQ from '../components/image/campq.png'
-import Watch from '../components/image/watch-list.png'
-import Notes from '../components/image/notes.png'
-import { DeviceFrameset } from 'react-device-frameset'
+import DevIcon from "devicon-react-svg";
+
+const devIconStyle = {
+    fill: "#587289",
+    width: "50px",
+    color: "#587289",
+}
 
 const Projects = () => {
     return (
@@ -25,8 +29,21 @@ const Projects = () => {
                             and it aims to help his clients attain their fitness goals by closely monitoring
                             their fitness and health progress.
                         </p>
-                        <span>Website: </span>
-                        <span>Tools Used:</span>
+                        <span>
+                            <a href="https://justice-app.herokuapp.com/">
+                                Website
+                            </a>
+                        </span>
+                        <br />
+                        <br />
+                        <span>
+                            <DevIcon icon="html5" style={devIconStyle} />
+                            <DevIcon icon="css3" style={devIconStyle} />
+                            <DevIcon icon="javascript" style={devIconStyle} />
+                            <DevIcon icon="python" style={devIconStyle} />
+                            <DevIcon icon="django" style={devIconStyle} />
+                            <DevIcon icon="mysql" style={devIconStyle} />
+                        </span>
                     </div>
                 </div>
                 <div className="project-container">
@@ -38,8 +55,16 @@ const Projects = () => {
                             them to collect, organize, and securely store hard evidence. This aims to 
                             help victims seek justice within the judicial system.
                         </p>
-                        <span>Website: </span>
-                        <span>Tools Used:</span>
+                        <span>
+                            <a href="https://justice-app.herokuapp.com/">
+                                Website
+                            </a>
+                        </span>
+                        <br />
+                        <br />
+                        <span>
+
+                        </span>
                     </div>
                 </div>
                 <div className="project-container">
@@ -52,8 +77,16 @@ const Projects = () => {
                             to resolve the issue of having storing issues for camping gear, especially
                             in cities with small homes.
                         </p>
-                        <span>Website: </span>
-                        <span>Tools Used:</span>
+                        <span>
+                            <a href="https://justice-app.herokuapp.com/">
+                                Website
+                            </a>
+                        </span>
+                        <br />
+                        <br />
+                        <span>
+
+                        </span>
                     </div>
                 </div>
             </div>
