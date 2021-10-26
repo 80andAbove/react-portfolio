@@ -2,7 +2,7 @@ import React from 'react'
 import DevIcon from "devicon-react-svg";
 
 const devIconStyle = {
-  fill: "#587289",
+  fill: "#FFFFFF",
   width: "50px",
   color: "#587289",
 }
