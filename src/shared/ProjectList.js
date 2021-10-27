@@ -5,6 +5,8 @@ import CampQ from '../components/image/campq.png'
 import Notes from '../components/image/notes.png'
 import watchList from '../components/image/watch-list.png'
 import DevIcon from "devicon-react-svg";
+import Carousel, { Dots } from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
 
 const devIconStyle = {
     fill: "#FFFFFF",
@@ -15,6 +17,7 @@ const devIconStyle = {
 const ProjectList = () => {
     return (
         <div className="projects">
+            <Carousel>
             <div className="project-container"> 
                 <img className="project-container-img" src={JWP} alt="#" />
                 <div className="project-detail-container">
@@ -165,6 +168,7 @@ const ProjectList = () => {
                     </span>
                 </div>
             </div>
+            </Carousel>
         </div>
     );
 }
