@@ -11,7 +11,7 @@ const Projects = () => {
             <h2 className="section-title name-title">RecentWorksRecentWorksRecentWorksRecentWorksRecentWorksRecentWorks</h2>
             </div>
             <ProjectList />
-            <div>
+            <div className="projects-summary">
                 <p>
                     Like what you see? I'm mostly a frontend developer for these projects
                     and I work closely with the design. Learned a few nifty tricks to implement

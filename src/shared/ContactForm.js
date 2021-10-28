@@ -10,8 +10,12 @@ function ContactForm() {
   }
   return (
     <div className="section" id="contact-section">
+      <div className="title-flex">
+        <h2 className="section-title name-title">ContactMeContact</h2>
+        <h2 className="section-title title-color">ContactMe</h2>
+        <h2 className="section-title name-title">ContactMeContactMeContactMeContactMeContactMeContactMe</h2>
+      </div>
       <form className="contact-form" onSubmit={handleSubmit}>
-      <h1 className="section-title">ContactMe</h1>
       <label htmlFor="name">
         Name
       </label>

@@ -197,15 +197,14 @@ input:checked + .slider:before {
 
 .section{
   height: 100vh;
-  
   #recent-work{
-    margin-bottom: 50rem;
+    height: 120vh;  
   }
 }
 
 // The contact form seciton
 #contact-section{
-  margin-top: 50rem;
+  // margin-top: 50rem;
 }
 
 // About me area
@@ -375,7 +374,6 @@ input:checked + .slider:before {
   display: flex;
   gap: 10rem;
   justify-content: center;
-  height: 250vh;
 }
 
 // The container that holds the projects
@@ -411,6 +409,10 @@ input:checked + .slider:before {
 .project-detail-container:hover{
   top: 0rem;
   height: 29rem;
+}
+
+.projects-summary{
+  margin-top: 5rem;
 }
 
 .contact-form{
