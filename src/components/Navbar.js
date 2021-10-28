@@ -14,14 +14,11 @@ const envelopeStyle = {
 }
 
 window.onload = () => {
-    const before_switch = document.querySelector('#name-change');
+    const before_switch = document.querySelector('#test');
     const name = document.querySelector('#my-name')
-    before_switch.addEventListener('click', (event) => {
+    before_switch.addEventListener('change', ()=> {
         if(name){
-            name.style.color = "#FF6B50"
-            name.style.textShadow = "1px 1px 30px #FF0000, 1px 1px 1px #FF00A7"
-        } else{
-            name.style.color = "#5C73B7"
+            name.classList.toggle('red');
         }
     });    
 }
@@ -34,7 +31,7 @@ const Navbar = () => {
             <div className="navbar-name-section">
                 <h1 id="my-name">宮城翔梧</h1>
                 <label className="switch">
-                  <input type="checkbox"></input>
+                  <input id="test" type="checkbox"></input>
                   <span id="name-change" className="slider round"></span>
                 </label>
             </div>
