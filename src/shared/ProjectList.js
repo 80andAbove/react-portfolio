@@ -26,7 +26,7 @@ const ProjectList = () => {
                     {
                       resolve: slidesToShowPlugin,
                       options: {
-                       numberOfSlides: 5,
+                       numberOfSlides: 4,
                       },
                     },
                   ]}   
