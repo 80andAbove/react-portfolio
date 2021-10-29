@@ -23,8 +23,6 @@ window.onload = () => {
     });    
 }
 
-
-
 const Navbar = () => {
     return (
         <nav className="navbar bg-light">

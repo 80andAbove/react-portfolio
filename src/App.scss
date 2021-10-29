@@ -427,16 +427,47 @@ input:checked + .slider:before {
   gap: 1rem;
 }
 
-#email{
-  width: 15rem;
+.contact-form{
+
+  #email, #name, #message{
+    width: 15rem;
+    height: 20px;
+  }
+  #message{
+    height: 8rem;
+    width: 31.6rem;
+  }
 }
 
-.footer {
-  background: #F4F4F4;
+.center{
+  display: grid;
+  justify-content: center;
+}
+
+.center-margin{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
+  gap: 1rem;
+}
+
+#submit-btn{
+  width: 10rem;
+  padding: 6px;
+  background-color: $blue;
+  color: white;
+  font-family: Aaron;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 1px;
+}
+
+#arya{
+  width: 15rem;
+  margin-top: 15rem;
 }

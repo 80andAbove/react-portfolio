@@ -15,42 +15,41 @@ function ContactForm() {
         <h2 className="section-title title-color">ContactMe</h2>
         <h2 className="section-title name-title">ContactMeContactMeContactMeContactMeContactMeContactMe</h2>
       </div>
-      <form className="contact-form" onSubmit={handleSubmit}>
-      <label htmlFor="name">
-        Name
-      </label>
-      <input
-        id="name"
-        type="name" 
-        name="name"
-      />
-      <label htmlFor="email">
-        Email Address
-      </label>
-      <input
-        id="email"
-        type="email" 
-        name="email"
-      />
-      <ValidationError 
-        prefix="Email" 
-        field="email"
-        errors={state.errors}
-      />
-      <textarea
-        id="message"
-        name="message"
-      />
-      <ValidationError 
-        prefix="Message" 
-        field="message"
-        errors={state.errors}
-      />
-      <button type="submit" disabled={state.submitting}>
-        Submit
-      </button>
+      <form className="contact-form center" onSubmit={handleSubmit}>
+        <div className="flex">
+          <input
+            id="name"
+            type="name" 
+            name="name"
+            placeholder="Name..."
+          />
+          <input
+            id="email"
+            type="email" 
+            name="email"
+            placeholder="Email address..."
+          />
+          <ValidationError 
+            prefix="Email" 
+            field="email"
+            errors={state.errors}
+          />
+        </div>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Message..."
+        />
+        <ValidationError 
+          prefix="Message" 
+          field="message"
+          errors={state.errors}
+        />
+        <button type="submit" disabled={state.submitting} id="submit-btn" className="center center-margin">
+          Send
+        </button>
       </form>
-      <img src={AMWaterMark} />
+      <img id="arya" className="center-margin" src={AMWaterMark} />
     </div>
   );
 }
