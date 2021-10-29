@@ -209,11 +209,6 @@ input:checked + .slider:before {
   }
 }
 
-// The contact form seciton
-#contact-section{
-  // margin-top: 50rem;
-}
-
 // About me area
 #about-me{
   display: grid;
@@ -420,6 +415,7 @@ input:checked + .slider:before {
 
 .projects-summary{
   margin-top: 5rem;
+  width: 35rem;
 }
 
 .contact-form{
