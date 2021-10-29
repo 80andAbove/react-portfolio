@@ -41,11 +41,11 @@ body{
 }
 
 .navbar{
-  top: 0;
+  position: relative;
 }
 
-.sticky{
-  position: fixed;
+.navbar.sticky{
+  position: sticky;
   top: 0;
 }
 
