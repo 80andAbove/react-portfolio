@@ -2,6 +2,7 @@ import React from 'react'
 import WebBackground from '../components/image/shogo-web.png'
 import Shogo from '../components/image/shogo.png'
 import { ReactComponent as ArrowDown } from '../assets/icons/chevron-down.svg'
+import Navbar from './Navbar'
 
 const devIconStyle =  {
     fill: "#587289",   
@@ -10,6 +11,7 @@ const devIconStyle =  {
 const Banner = () => {
     return (
         <div className="banner section">
+            <Navbar />
             <div className="banner-name">
                 <h1>Shogo Miyagi</h1>
             </div>

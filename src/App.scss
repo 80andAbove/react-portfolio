@@ -41,7 +41,8 @@ body{
 }
 
 .navbar{
-  position: relative;
+  position: fixed;
+  top: 0;
 }
 
 .navbar.sticky{
@@ -237,6 +238,7 @@ input:checked + .slider:before {
 /* The banner section */
 .banner{
   position: relative;
+  margin-top: 33rem;
   .banner-name, 
   .banner-title,
   .banner-section-list
