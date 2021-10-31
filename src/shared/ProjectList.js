@@ -124,11 +124,10 @@ const ProjectList = () => {
             <div className="project-container">
                 <img className="project-container-img" src={Notes} alt="#" />
                 <div className="project-detail-container">
-                    <h3>Justice</h3>
+                    <h3>Notes</h3>
                     <p>
-                        Justice is a web application built to protect victims of sexual abuse by allowing
-                        them to collect, organize, and securely store hard evidence. This aims to 
-                        help victims seek justice within the judicial system.
+                        Notes is a web application built that allows users to create, edit, 
+                        and save their notes. Built in React, it was my first React app
                     </p>
                     <span>
                         <a href="https://justice-app.herokuapp.com/">
@@ -141,12 +140,7 @@ const ProjectList = () => {
                         <DevIcon icon="html5" style={devIconStyle} />
                         <DevIcon icon="css3" style={devIconStyle} />
                         <DevIcon icon="javascript" style={devIconStyle} />
-                        <DevIcon icon="ruby" style={devIconStyle} />
-                        <DevIcon icon="postgresql" style={devIconStyle} />
-                        <svg viewBox="0 0 150 150">
-                        <path style={devIconStyle} d="M45.5 129c11.9 0 21.5-9.6 21.5-21.5V86H45.5C33.6 86 24 95.6 24 107.5S33.6 129 45.5 129zm0 0"></path><path style={devIconStyle} d="M24 64.5C24 52.6 33.6 43 45.5 43H67v43H45.5C33.6 86 24 76.4 24 64.5zm0 0"></path><path style={devIconStyle} d="M24 21.5C24 9.6 33.6 0 45.5 0H67v43H45.5C33.6 43 24 33.4 24 21.5zm0 0"></path><path style={devIconStyle} d="M67 0h21.5C100.4 0 110 9.6 110 21.5S100.4 43 88.5 43H67zm0 0"></path><path style={devIconStyle} d="M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5 76.6 43 88.5 43 110 52.6 110 64.5zm0 0"></path>
-                        </svg>
-                        <DevIcon icon="heroku" style={devIconStyle} />
+                        <DevIcon icon="react" style={devIconStyle} />
                         <DevIcon icon="git" style={devIconStyle} />
                     </span>
                 </div>
@@ -154,14 +148,14 @@ const ProjectList = () => {
             <div className="project-container">
                 <img className="project-container-img" src={watchList} alt="#" />
                 <div className="project-detail-container">
-                    <h3>Justice</h3>
+                    <h3>Must Watch</h3>
                     <p>
-                        Justice is a web application built to protect victims of sexual abuse by allowing
-                        them to collect, organize, and securely store hard evidence. This aims to 
-                        help victims seek justice within the judicial system.
+                        Must Watch is a Ruby on Rails application that allows users to search
+                        and store the movies they want to see. It is one of the projects I worked 
+                        on in the Le Wagon Bootcamp.
                     </p>
                     <span>
-                        <a href="https://justice-app.herokuapp.com/">
+                        <a href="https://railswatchlist-shogo.herokuapp.com/">
                             Website
                         </a>
                     </span>
@@ -172,10 +166,8 @@ const ProjectList = () => {
                         <DevIcon icon="css3" style={devIconStyle} />
                         <DevIcon icon="javascript" style={devIconStyle} />
                         <DevIcon icon="ruby" style={devIconStyle} />
+                        <i class="devicon-rails-plain"></i>
                         <DevIcon icon="postgresql" style={devIconStyle} />
-                        <svg viewBox="0 0 150 150">
-                        <path style={devIconStyle} d="M45.5 129c11.9 0 21.5-9.6 21.5-21.5V86H45.5C33.6 86 24 95.6 24 107.5S33.6 129 45.5 129zm0 0"></path><path style={devIconStyle} d="M24 64.5C24 52.6 33.6 43 45.5 43H67v43H45.5C33.6 86 24 76.4 24 64.5zm0 0"></path><path style={devIconStyle} d="M24 21.5C24 9.6 33.6 0 45.5 0H67v43H45.5C33.6 43 24 33.4 24 21.5zm0 0"></path><path style={devIconStyle} d="M67 0h21.5C100.4 0 110 9.6 110 21.5S100.4 43 88.5 43H67zm0 0"></path><path style={devIconStyle} d="M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5 76.6 43 88.5 43 110 52.6 110 64.5zm0 0"></path>
-                        </svg>
                         <DevIcon icon="heroku" style={devIconStyle} />
                         <DevIcon icon="git" style={devIconStyle} />
                     </span>
