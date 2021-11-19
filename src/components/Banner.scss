@@ -60,4 +60,14 @@
   right: 15px;
   top: 12rem;
   font-size: 20px;
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  // The pages content
+  .banner-section-list{
+    right: 15px;
+    top: 38%;
+    font-size: 13px;
+  }
 }
