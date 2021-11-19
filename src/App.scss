@@ -36,78 +36,8 @@ body{
 @import 'shared/Projects.scss';
 
 
-/* The banner section */
-.banner{
-  position: relative;
-  .banner-name, 
-  .banner-title,
-  .banner-section-list
-  {
-      position: absolute;
-  }
-}
-
-// My name in the banner section
-.banner-name{
-  top: -35rem;
-  left: 7rem;
-  font-size: 24px;
-  h1{
-    color: #F16A53;
-    text-transform: uppercase;
-  }
-}
-
-// The web developer area in the banner
-.banner-title-area{
-  left: 28rem;
-}
-
-.banner-title{
-  text-shadow: 3px 3px black;
-  margin-left: 40rem;
-  text-align: end;
-  font-size: 5rem;
-  margin-top: -1rem;
-  text-transform: uppercase;
-  font-weight: lighter;
-}
-
-#web-title{
-  margin-top: -11rem;
-  margin-left: 51rem;
-}
-#developer-title{
-  margin-top: -6rem;
-  margin-left: 34rem;
-}
-
-
-
-#web-background{
-  margin-left: 55rem;
-  margin-top: -27rem;
-}
-
-#web-shogo{
-  margin-left: 50rem;
-  margin-top: -47rem;
-}
-
-// The page sections
-.banner-section-list{
-  right: 15px;
-  top: 12rem;
-  font-size: 20px;
-}
-
-
 .title-flex{
   display: flex;
-}
-
-#decrease-margin-top{
-  
 }
 
 .section-title{
