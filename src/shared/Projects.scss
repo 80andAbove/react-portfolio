@@ -1,0 +1,47 @@
+
+// The lineup of projects
+.projects{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+}
+
+// The container that holds the projects
+.project-container{
+  contain: content;
+  width: 30rem;
+}
+
+// The img size in projects 
+.project-container-img{
+  position: relative;
+  width: 25rem;
+  height: 30rem;
+}
+
+// The container that holds the projects details
+.project-detail-container{
+  position: absolute;
+  contain: content;
+  width: 23rem;
+  height: 2rem;
+  padding: 0rem 1rem 1rem;
+  top: 27rem;
+  transition: all .7s ease-out;
+  overflow: hidden;
+  backdrop-filter: blur(8px);
+  p, span{
+    opacity: 1.0;
+  }
+}
+
+// When hovering over the details container, it exapnds upwards
+.project-detail-container:hover{
+  top: 0rem;
+  height: 29rem;
+}
+
+.projects-summary{
+  margin-top: 5rem;
+}
+  

@@ -32,7 +32,6 @@ body{
 // Pages Scss
 @import 'shared/About.scss';
 @import 'shared/ContactForm.scss';
-@import 'shared/ProjectList.scss';
 @import 'shared/Projects.scss';
 
 
@@ -55,106 +54,6 @@ body{
 
 .title-color{
   color: $white;
-}
-
-.me-area{
-  display: flex;
-  justify-content: center;
-}
-
-// The list of my stack
-.stack-area{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 38rem;
-}
-
-#title-mystack{
-  display: grid;
-  justify-content: center;
-}
-
-.stack-titles{
-  display: inline-flex;
-  gap: 3rem;
-}
-
-.stack-specific{
-  display: grid;
-  gap: 1rem;
-}
-
-#framework{
-  margin-left: 7rem;
-  margin-top: -8rem;
-}
-
-#frontend{
-  margin-left: 14.5rem;
-  margin-top: -28rem;
-}
-
-#database{
-  margin-left: 21rem;
-  margin-top: -15.6rem;
-}
-
-#other{
-  margin-left: 28rem;
-  margin-top: -7rem;
-}
-
-// The icons for my stacks
-.devicons{
-  height: 3rem;
-  width: 3rem;
-}
-
-// The lineup of projects
-.projects{
-  display: flex;
-  gap: 10rem;
-  justify-content: center;
-}
-
-// The container that holds the projects
-.project-container{
-  contain: content;
-  width: 30rem;
-}
-
-// The img size in projects 
-.project-container-img{
-  position: relative;
-  width: 25rem;
-  height: 30rem;
-}
-
-// The container that holds the projects details
-.project-detail-container{
-  position: absolute;
-  contain: content;
-  width: 23rem;
-  height: 2rem;
-  padding: 0rem 1rem 1rem;
-  top: 27rem;
-  transition: all .7s ease-out;
-  overflow: hidden;
-  backdrop-filter: blur(8px);
-  p, span{
-    opacity: 1.0;
-  }
-}
-
-// When hovering over the details container, it exapnds upwards
-.project-detail-container:hover{
-  top: 0rem;
-  height: 29rem;
-}
-
-.projects-summary{
-  margin-top: 5rem;
 }
 
 .contact-form{
