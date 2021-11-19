@@ -1,0 +1,75 @@
+.about-me-stack{
+    color: $white;
+    span{
+      font-size: 15px;
+    }
+}
+
+/* The connect with me area in the welcome screen */
+.connect-with-me {
+  overflow: hidden;
+  text-align: center;
+  margin-top: 3px;
+  margin-left: -46px;
+  margin-right: auto;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#no-connect-with-me-before:before,
+#no-connect-with-me-after:after{
+  display: none;
+}
+
+/* The connect with me area in the welcome screen */
+.connect-with-me:before,
+.connect-with-me:after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 85px;
+  background-color: white;
+  right: -1.5rem;
+}
+/* The connect with me area in the welcome screen */
+.connect-with-me:before {
+  right: 1.5rem;
+  margin-left: auto;
+}
+/* The connect with me area in the welcome screen */
+.connect-wth-me:after {
+  left: -1.5em;
+  margin-right: auto;
+}
+
+.section{
+  height: 100vh;
+  #recent-work{
+    height: 120vh;  
+  }
+}
+
+// The contact form seciton
+#contact-section{
+  // margin-top: 50rem;
+}
+
+// About me area
+#about-me{
+  display: grid;
+  justify-content: center;
+  margin-top: -13rem;
+}
+
+// My bio
+.about-area{
+    width: 65rem;
+    display: flex;
+    justify-self: center;
+    p{
+      font-size: 18px;
+    }
+}
