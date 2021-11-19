@@ -20,10 +20,10 @@ window.onload = () => {
         if(name){
             name.classList.toggle('red');
         }
-    });    
+    });
+    
+    
 }
-
-
 
 const Navbar = () => {
     return (
