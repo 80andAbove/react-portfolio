@@ -29,31 +29,9 @@ body{
 @import 'components/Banner.scss';
 @import 'components/Navbar.scss';
 @import 'components/Footer.scss';
+@import 'components/Title.scss';
 
-// Pages Scss
+// Shared Scss
 @import 'shared/About.scss';
 @import 'shared/ContactForm.scss';
 @import 'shared/Projects.scss';
-
-
-.title-flex{
-  display: flex;
-}
-
-.section-title{
-  color: $white;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 44px;
-  margin-bottom: 5rem;
-}
-
-.name-title{
-  color: #13212D;
-  overflow: hidden;
-}
-
-.title-color{
-  color: $white;
-}
-

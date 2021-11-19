@@ -38,18 +38,18 @@ const Navbar = () => {
             <div className="navbar-social-list-section">
                 <ul>
                     <li className="list-style">
-                        <a href="www.instagram.com" target="_blank">
-                            <DevIcon icon="github_badge" style={devIconStyle} viewBox="0 0 32 32" />
+                        <a href="www.github.com/80andabove" target="_blank">
+                            <DevIcon icon="github_badge" className="svg-style" style={devIconStyle} viewBox="0 0 32 32" />
                         </a>
                     </li>
                     <li className="list-style" id="linkedin-icon">
                         <a href="www.linkedin.com/in/shogo-miyagi/" target="_blank">
-                            <DevIcon icon="linkedin" style={devIconStyle} viewBox="0 0 32 32" />
+                            <DevIcon icon="linkedin" className="svg-style" style={devIconStyle} viewBox="0 0 32 32" />
                         </a>
                     </li>
                     <li className="list-style" id="envelope-icon">
                         <a href="gmail.com" target="_blank">
-                            <FontAwesomeIcon icon={faEnvelope} style={envelopeStyle} viewBox="0 0 200 200" />
+                            <FontAwesomeIcon icon={faEnvelope} className="svg-style" style={envelopeStyle} viewBox="0 0 200 200" />
                         </a>
                     </li>
                 </ul>
