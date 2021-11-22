@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react'
 import DevIcon from "devicon-react-svg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faWindowRestore } from '@fortawesome/free-solid-svg-icons'
 
 const devIconStyle = {
     fill: "#587289",
@@ -13,6 +13,11 @@ const envelopeStyle = {
     width: "50px",
 }
 
+// const navbar = document.getElementsByClassName('navbar');
+// window.addEventListener('scroll', () => {
+//     navbar.classList.toggle('sticky', window.scrollY > 0)
+// });
+
 window.onload = () => {
     const before_switch = document.querySelector('#test');
     const name = document.querySelector('#my-name')
@@ -21,8 +26,6 @@ window.onload = () => {
             name.classList.toggle('red');
         }
     });
-    
-    
 }
 
 const Navbar = () => {
