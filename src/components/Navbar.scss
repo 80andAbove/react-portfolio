@@ -130,100 +130,100 @@ input:checked + .slider:before {
     .navbar-name-section{
       h1{
         font-size: 2rem;
-        margin-left: 15%;
+        margin-left: 3%;
       }
     }
 
     /* The social list section in navbar */
     .navbar-social-list-section{
-        ul{
-            margin-left: -15%;
-        }
+      ul{
+        margin-left: -30%;
+      }
     }
 
     // Targets the svgs in the navbar and changes their size
     .svg-style{
-        width: 30px !important;
+      width: 30px !important;
     }
 
     // Repositioning the Linkdein icon
     #linkedin-icon{
-        margin-left: 3px;
-        margin-top: 10px;
+      margin-left: 3px;
+      margin-top: 10px;
     }
 
     // Repositioning the envelope icon
     #envelope-icon{
-        font-size: 9px;
-        margin-left: -10%;
-        margin-top: 10%;
+      font-size: 9px;
+      margin-left: -10%;
+      margin-top: 10%;
     }
     
     /* The switch - the box around the slider */
     .switch {
-        width: 44px;
-        height: 20px;
-        margin-left: 57px;
-        margin-top: 15px;
+      width: 44px;
+      height: 20px;
+      margin-left: 45px;
+      margin-top: 15px;
     }
     
     /* Hide default HTML checkbox */
     .switch input {
-        opacity: 0;
-        width: 0;
-        height: 0;
+      opacity: 0;
+      width: 0;
+      height: 0;
     }
     
     /* The slider */
     .slider {
-        position: absolute;
-        cursor: pointer;
-        top: 0;
-        left: -35px;
-        right: 42px;
-        bottom: 0;
-        background-color: #ccc;
-        -webkit-transition: .4s;
-        transition: .4s;
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: -35px;
+      right: 42px;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
     }
     
 
     /* Related to the slider */
     .slider:before {
-        position: absolute;
-        content: "";
-        height: 19px;
-        width: 21px;
-        bottom: 1px;
-        background-color: $white;
-        transition: .4s;
+      position: absolute;
+      content: "";
+      height: 19px;
+      width: 21px;
+      bottom: 1px;
+      background-color: $white;
+      transition: .4s;
     }
     
     // The background color of the input when checked
     input:checked + .slider {
-        background-color: #2196F3;
+      background-color: #2196F3;
     }
     
     // The inputs box shadow when checked
     input:focus + .slider {
-        box-shadow: 0 0 1px #2196F3;
+      box-shadow: 0 0 1px #2196F3;
     }
     
     // The amount it slides
     input:checked + .slider:before {
-        -webkit-transform: translateX(16px);
-        -ms-transform: translateX(16px);
-        transform: translateX(16px);
+      -webkit-transform: translateX(16px);
+      -ms-transform: translateX(16px);
+      transform: translateX(16px);
     }
     
     // The roundness of the circle
     .slider.round {
-        border-radius: 34px;
+      border-radius: 34px;
     }
 
     // The roundness of the circle before checked
     .slider.round:before {
-        border-radius: 50%;
+      border-radius: 50%;
     }
   
     
@@ -232,6 +232,6 @@ input:checked + .slider:before {
 @media screen and (min-width: 1200px) {
     /* The social list section in navbar */
     .navbar-social-list-section{
-        margin-left: 12px;
+      margin-left: 12px;
     }   
 }
