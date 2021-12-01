@@ -7,7 +7,6 @@
 /* The banner section */
 .banner{
     position: relative;
-    margin-top: 33rem;
     .banner-name, 
     .banner-title,
     .banner-section-list
@@ -79,5 +78,8 @@
       margin-left: -30%;
       margin-top: 13%;
     }
+    top: -3%;
+    left: 15%;
+    font-size: 1rem;
   }
 }
